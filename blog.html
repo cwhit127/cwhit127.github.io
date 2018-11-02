@@ -1,0 +1,22 @@
+---
+layout: default
+siteheader: chris whiting
+title: Blog
+---
+<h1>Latest Posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p><b>Tags</b> : {% assign tags = post.tag | split: ", " %}
+        {% for tag in tags %}
+          <span style="background:#ffba24; padding:2px; font-weight:bold">{{ tag }}</span>
+        {% endfor %}
+      </p>
+      <p><b>Author</b> : {{ post.author }}</p>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
