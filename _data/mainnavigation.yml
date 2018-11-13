@@ -1,12 +1,12 @@
 - title: Home
-  url: /index.html
+  url: /
 - title: About
-  url: /about
+  url: /about.html
 - title: Blog
-  url: /blog
+  url: /blog.html
 - title: Dev
-  url: /dev
+  url: /dev.html
 - title: Fun Stuff
-  url: /stuff
+  url: /stuff.html
 - title: References
-  url: /ref
+  url: /ref.html

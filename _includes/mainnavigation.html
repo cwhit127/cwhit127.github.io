@@ -1,3 +1,10 @@
-{% for link in site.data.mainnavigation %}
-<a href="{{ link.url }}">{{ link.title }}</a>
-{% endfor %}
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark text-light fixed-top">
+    <img src="assets/img/me.jpg" class="rounded-circle img-responsive nav-text" height="75" width="75" alt="This is me!">      
+    <ul class="navbar-nav mr-auto">
+        {% for links in site.data.mainnavigation %}
+        <li class="nav-item">
+            <a class="nav-link" href="{{links.url}}">{{links.title}}</a>
+        </li>
+        {% endfor %}   
+    </ul>
+</nav>
