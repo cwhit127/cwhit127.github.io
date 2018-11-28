@@ -1,10 +1,26 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark text-light fixed-top">
-    <img src="assets/img/me.jpg" class="rounded-circle img-responsive nav-text" height="75" width="75" alt="This is me!">      
-    <ul class="navbar-nav mr-auto">
-        {% for links in site.data.mainnavigation %}
-        <li class="nav-item">
-            <a class="nav-link" href="{{links.url}}">{{links.title}}</a>
-        </li>
-        {% endfor %}   
-    </ul>
-</nav>
+<div class="fixed-top bg-dark clear-fix" style="height:100px;"> 
+
+    <img src="assets/img/me.jpg" height="100px" width="100px" class="img-fluid rounded-circle float-left ml-1 mr-2" />
+
+    <div>
+        <div class="page-header bg-dark text-white mt-1">
+            <h3>
+                Chris Whiting
+                <small class="badge badge-secondary">.NET Developer</small>
+            </h3>
+        </div> 
+        
+        <ul class="nav">
+            {% for links in site.data.mainnavigation %}
+            <li class="nav-item">
+                {% if page.url == links.url %}
+                    <a class="nav-link bg-light text-dark" href="{{links.url}}">{{links.title}}</a>
+                {% else %}
+                    <a class="nav-link text-light" href="{{links.url}}">{{links.title}}</a>
+                {% endif %}
+            </li>
+            {% endfor %}   
+        </ul>
+    </div>
+    
+</div>

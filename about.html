@@ -1,0 +1,34 @@
+---
+layout: default
+title: About
+siteheader: chris whiting
+title: Blog
+---
+
+<h3 class="mt-3">Who Am I</h3>
+
+<p> Hi i'm Chris, a software developer from Sheffield! I graduated from university in 2013 with a degree in Software Developmet. After several years using c++ and Java at university I started using C# and Several .NET technologies including WPF professionally. 
+    More recently I've become a <s>"full stack"</s> developer who uses a mixture of cross platform and cloud based technologies for a fantastic development studio located in sheffield. For more information about what we do, why not pop across to <a href="https://www.razor.co.uk">Razor</a> and find out.
+</p>
+
+<h3>What do I know</h3>
+<ul>
+{% for tech in site.data.technologies %}
+    <li>
+        {% if tech.description == null %}
+            {{tech.description}}
+        {% else %}
+            <a href='{{tech.url}}'>{{ tech.description }}</a>
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
+
+<h3>What interests me </h3>
+
+<p>I'm a pretty simple guy, I like what I like and I like what I know! If i'm not out on the roads riding my <a href="https://www.strava.com/athletes/12373514">Bike</a>, I'm playing football for a local 5-a-side team or sat in front of my tv playing my <a href="https://www.nintendo.com/switch/">Nintendo Switch</a>. I don't know about you but I'm a massive Nintendo fanboi and am absolutely not ashamed to say so.
+
+Despite living in the Steel city and spending most of my life living in <s>god's own county (according to the locals)</s> South Yorkshire, I don't support any of the local football teams. Instead my loyalities lie with <a href="https://www.canaries.co.uk/">Norwich City</a> as that's the place of my birth!
+
+Aside from football, you'll also find I have a huge interested in American Football; both professionally (<a hred="www.nfl.com">NFL</a> and collegiately <a href="https://www.ncaa.com/sports/football/fbs">NFL</a> stemming from 2 years spent living/studying at <a href="www.odu.edu">ODU</a> in Norfolk, Va, U.S.A! 
+</p>

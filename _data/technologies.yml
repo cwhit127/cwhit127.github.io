@@ -1,5 +1,9 @@
 - description: C#
   url: https://docs.microsoft.com/en-us/dotnet/csharp/
+- description: WPF
+  url: https://docs.microsoft.com/en-us/dotnet/csharp/
+- description: ASP.NET MVC
+  url: https://docs.microsoft.com/en-us/dotnet/csharp/
 - description: Azure
   url: https://azure.microsoft.com/en-gb/get-started/
 - description: Xamarin     
