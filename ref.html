@@ -1,0 +1,19 @@
+---
+layout: default
+siteheader: chris whiting
+title: Reference
+---
+{% for reference in site.data.references %}
+<div class="card">
+    <div class="card-header">
+        {{ reference.section}}
+    </div>
+    <div class="card-body">
+        <ul class="list-group"></ul>
+        {% for link in reference.links %}
+            <li class="list-group-item"> <a href="{{ link.url }}">{{ link.title }}</a> </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endfor %}
