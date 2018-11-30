@@ -5,33 +5,61 @@ title: Home
 ---
 
 
-<p class="lead mt-4">Welcome to my site! Please use the quicklinks below to see all recent activity.</p>
+<p class="lead">Welcome to my site! Please use the quicklinks below to see all recent activity.</p>
 <h3 class="mt-2 pb-3">Quicklinks</h3>
 <div class="row">
     <div class="col-md-4">
         <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Lastest Blog Post</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View all blog entries</a>
+            <div class="card-body ">
+                <h5 class="card-title text-center">Lastest Blog Post <span class="fas fa-comment pl-2"></span></h5>
+                <p class="card-text">
+                    {% assign count = site.posts | size %}
+                    {% assign latest = site.posts | first %}
+                    <p><span class="font-weight-bold">Blog Title : </span> {{ latest.title }} </p>
+                    <p><span class="font-weight-bold">Published date : </span> {{ latest.published | date: "%d %B %Y %I:%M %p" }}</p>
+                    <p><span class="font-weight-bold">Author : </span> {{ latest.author }}</p>
+                    <p><span class="font-weight-bold">Post Count : </span>{{ count }}</p>
+                </p>
+                <div class="text-center ">
+                    <a href="{{ latest.url }}" class="btn btn-dark">View post</a>
+                    <a href="/blog" class="btn btn-dark">View {% if count >= 2 %} all posts {% else %} first post {% endif %}</a>
+                </div>
             </div>
         </div>
     </div>
     <div class="col-md-4">
         <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Latest Random Update</h5>
-                    <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">View all random articles</a>
+                    <h5 class="card-title text-center">Latest Random Update <span class="fas fa-random"></span></h5>
+                    <p class="card-text">
+                        {% assign latestRandomPost = site.data.nintendoswitch | last_random_entry %}
+            
+                        <p><span class="font-weight-bold">Category : </span> {{ latestRandomPost.category }} </p>
+                        <p><span class="font-weight-bold">Title : </span> {{ latestRandomPost.title }}</p>
+                        <p><span class="font-weight-bold">Published date : </span> {{ latestRandomPost.published | date: "%d %B %Y %I:%M %p"}}</p>
+                        
+                        <p><img src=""></p>
+                    </p>
+                    <div class="text-center">
+                        <a href="/random.html#{{ latestRandomPost.tag }}" class="btn btn-dark">View entry</a>
+                        <a href="/random.html" class="btn btn-dark">View all entries</a>
+                    </div>
                 </div>
         </div>
     </div>
     <div class="col-md-4">
         <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Lastest Reference Update</h5>
-                    <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">View all references</a>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Lastest Reference Update <span class="fas fa-graduation-cap"></span></h5>
+                    <p class="card-text">
+                        {% assign latestReference =  site.data.references | last_reference_entry %}
+                        <p><span class="font-weight-bold">Category : </span> {{ latestReference.category }} </p>
+                        <p><span class="font-weight-bold">Title : </span> <a href="{{ latestReference.url}}">{{ latestReference.title }}</a></p>
+                        <p><span class="font-weight-bold">Published date : </span> {{ latestReference.published | date: "%d %B %Y %I:%M %p"}}</p>
+                        <div class="text-center">
+                            <a href="/ref.html" class="btn btn-dark">View all references</a>
+                        </div>
+                    </p>
                 </div>
         </div>
     </div>

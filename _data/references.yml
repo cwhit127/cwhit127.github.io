@@ -2,21 +2,35 @@
   links:
     - title: Setting up a reverse proxy in Azure
       url: https://tomssl.com/2015/06/15/create-your-own-free-reverse-proxy-with-azure-web-apps/
+      published: '2018-11-28T23:00:00+00:00'
+      category: Azure
 - section: ASP.NET MVC / ASP.NET CORE
   links:
     - title: Suppress SAMEORIGIN HTTP Header when using AntiForgeryToken
       url: https://www.quppa.net/blog/2013/11/28/html-antiforgerytoken-sets-an-x-frame-options-header-with-the-value-sameorigin/
+      published: '2018-11-28T23:00:00+00:00'
+      category: Azure
 - section: .NET Core Middleware
   links:
     - title: Prefix profiler for web and database requests
       url: https://docs.stackify.com/docs/prefix-using-with-asp-net-corekestrel
+      published: '2018-11-28T23:00:00+00:00'
+      category: Azure
     - title: Serilog logging library
       url: https://serilog.net/
+      published: '2018-11-28T23:00:00+00:00'
+      category: Azure
     - title: Seq error logging sink
       url: https://getseq.net/
+      published: '2018-11-28T23:00:00+00:00'
+      category: Azure
     - title: Using Polly to perform circuit breaking and fault handling
       url: https://www.nuget.org/packages/polly/
+      published: '2018-11-28T23:00:00+00:00'
+      category: Azure
 - section: Development tools
   links:
     - title: Load generator tool to monitor website responsiveness 
       url: https://github.com/aliostad/SuperBenchmarker
+      published: '2018-11-28T23:00:00+00:00'
+      category: Azure

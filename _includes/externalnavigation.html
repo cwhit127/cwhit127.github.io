@@ -4,7 +4,7 @@
         <ul class="navbar-nav">
             {% for link in site.data.externallinks %}
             <li class="nav-item">
-                <a class="nav-link" href="{{link.url}}">{{link.title}}</a>
+                <a class="nav-link" href="{{ link.url }}">{{link.title}} <span class="{{ link.css }}"></span></a>
             </li>
             {% endfor %}   
         </ul>

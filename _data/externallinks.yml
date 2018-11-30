@@ -1,8 +1,12 @@
 - url: https://www.razor.co.uk
   title: Razor
+  css: ''
 - url: https://www.strava.com/athletes/12373514
   title: Strava
+  css: 'fab fa-strava'
 - url: https://twitter.com/__chriswhiting"
   title: Twitter
-  
-  
+  css: 'fab fa-twitter-square'
+- url: https://www.linkedin.com/in/christopher-whiting-7006a927/
+  title: LinkedIn
+  css: 'fab fa-linkedin-in'

@@ -1,16 +1,25 @@
-- game: Mario Kart 8 Deluxe
+- title: Mario Kart 8 Deluxe
+  category: Video Games
+  tag: c8ae804d-f8e5-42c6-b6ac-e19fd011f8ea
+  published: '2018-11-28T23:00:00+00:00'
   imgsrc: https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_MarioKart8Deluxe_PEGI.jpg
   url: https://www.nintendo.co.uk/Games/Nintendo-Switch/Mario-Kart-8-Deluxe-1173281.html
   hours: 70+
   thoughts: What can I say but yet another classic entry in the MK franchise. Enjoyable to play on your own or with family and friends, it's one of my go to games when I want to waste away a few minutes (or hours!).
             Performance is exceptional as you'd expect from a 1st party game of this stature with the only noticable blip in 4 player co-op mode but considering the known limitations of the switch, it's remarkable that this is the only drop in framerate you'll notice.
             While i've seen complaints bemoaning the fact this game is a port of Mario Kart 8 for the Wii U, I think it was neccessary to release a game of this quality and magnitude in the firt year of the console's lifespan.
-- game: Zelda Breath of the Wild
+- title: Zelda Breath of the Wild
+  category: Video Games
+  tag: e1688c6c-a6d1-4a70-9641-c9bdaf3b806c
+  published: '2018-11-27T23:00:00+00:00'
   imgsrc: https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_TheLegendOfZeldaBreathOfTheWild_PEGI.jpg
   url: https://www.nintendo.co.uk/Games/Nintendo-Switch/The-Legend-of-Zelda-Breath-of-the-Wild-1173609.html
   hours: 205+
   thoughts:
-- game: Xenoblade Chronicles 2
+- title: Xenoblade Chronicles 2
+  category: Video Games
+  tag: 084d25ed-f9c5-4e0a-8c26-7e7b69062aa2
+  published: '2018-11-26T23:00:00+00:00'
   imgsrc: https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_XenobladeChronicles2_PEGI.jpg
   url: https://www.nintendo.co.uk/Games/Nintendo-Switch/Xenoblade-Chronicles-2-1233955.html
   hours: 90+
@@ -18,7 +27,10 @@
             for another (J)RPG to sink my teeth into. The game consists of 10 chapters which tell the story of Rex and his Blade (more on that in a minute) Pyra/Mythra attempts to find the mythical place known as Elysium. The first 2 - 3 chapters are slow burners
             and unless you're willing to give the game a chance, there is absolutely nothing stopping you placing it on the trash heap. However if you persist you'll be rewarded with a captivating storyline, fanatastic combat mechanics and wonder at how a game like this can be played on a device like the switch. 
 
-- game: Pokemon Let's Go Pikachu
+- title: Pokemon Let's Go Pikachu
+  category: Video Games
+  tag: 9bc89ef3-72e2-429b-b474-a3cd1ed0255b
+  published: '2018-11-25T23:00:00+00:00'
   imgsrc: https://cdn02.nintendo-europe.com/media/images/05_packshots/games_13/nintendo_switch_8/PS_NSwitch_PokemonLetsGoPikachu_enGB.jpg
   url: https://www.nintendo.co.uk/Games/Nintendo-Switch/Pokemon-Let-s-Go-Pikachu--1382836.html
   hours: 30+
